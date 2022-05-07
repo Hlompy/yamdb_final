@@ -2,12 +2,11 @@ import csv
 import os
 
 from django.core.management.base import BaseCommand
-
 from api_yamdb.settings import BASE_DIR
 from reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
 from users.models import User
 
-# Путь папки с импортируемыми файлами
+
 DATA_DIR = os.path.join(BASE_DIR, 'static', 'data')
 
 

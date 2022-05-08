@@ -34,7 +34,7 @@ jobs:
         python manage.py test
     - name: Pytest
       run: |
-        cd ./
+        cd ..
         pytest
         
   build_and_push_to_docker_hub:

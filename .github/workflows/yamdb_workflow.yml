@@ -1,4 +1,4 @@
-name: Django-app workflow
+name: yamdb_final workflow
 
 on: [push]
 
@@ -35,7 +35,6 @@ jobs:
     - name: Pytest
       run: |
         cd ..
-        mv ./yamdb_final/tests/conftest.py .
         pytest
         
   build_and_push_to_docker_hub:

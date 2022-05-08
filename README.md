@@ -55,8 +55,4 @@ DB_PORT
 
 
 ## Лицензия
-<<<<<<< HEAD
 [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
-=======
-[MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
->>>>>>> 50dee19bcfcd3ff929c68f28c52b95a6532afd80

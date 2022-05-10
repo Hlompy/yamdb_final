@@ -52,6 +52,14 @@ DB_PORT
 Соберите статику:
 
     docker-compose exec web python manage.py collectstatic --no-input 
+   
+## Технологии используемые в проекте
+
+Python, Django, Django REST Framework, PostgreSQL, Nginx, Docker, GitHub Actions
+
+## Автор
+
+Kryukov George
 
 
 ## Лицензия

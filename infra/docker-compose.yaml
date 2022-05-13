@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: 1488840678/docker_compose:latest
+    image: 1488840678/docker_compose:latest #new_docker_need
     restart: always
     volumes:
       - static_value:/app/static/

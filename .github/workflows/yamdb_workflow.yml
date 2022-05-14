@@ -69,6 +69,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            sudo docker pull 1488840678/compose:v1
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env

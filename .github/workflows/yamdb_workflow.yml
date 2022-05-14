@@ -70,7 +70,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             sudo docker pull 1488840678/compose:v1
-            sudo docker-compose stop
+            sudo docker-compose stop $(sudo docker-compose ps -a -q)
             sudo docker-compose rm web
             sudo docker-compose up -d 
           

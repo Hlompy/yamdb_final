@@ -52,7 +52,11 @@ DB_PORT
 Соберите статику:
 
     docker-compose exec web python manage.py collectstatic --no-input 
-   
+    
+## IP сервера
+51.250.110.145
+
+51.250.110.145/admin/ #админка   
 ## Технологии используемые в проекте
 
 Python, Django, Django REST Framework, PostgreSQL, Nginx, Docker, GitHub Actions
